@@ -1,0 +1,32 @@
+html{
+    font-size:16px;
+}
+
+#login-title { 
+    font-size: 2.5rem;
+    font-family: 'monoton',cursive; 
+}
+
+input[type="text"]{
+    border: 3px solid blue;
+}
+
+input[type="password"]{
+    border: 3px solid red;
+}
+
+input[type="text"]:hover{
+    border: 5px solid blue;
+}
+
+input[type="password"]:hover{
+    border: 5px solid red;
+}
+.guide{
+    font-size: 0.85rem;
+}
+
+.guide::before{
+    content "*";
+    color: red;
+}
